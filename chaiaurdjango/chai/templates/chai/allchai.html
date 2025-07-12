@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block title %}
+All types of chai
+
+{% endblock %}
+
+{% block content %}
+<h1>  aur ye aa gaya aap ka chai  </h1>
+
+<div class = "grid grid-col-3 gap-4">
+{% for chai in chais  %}
+
+<div class = "chai-item">
+    <img src = "{{chai.image.url}}" alt  = "">
+
+</div>
+{% endfor %}
+</div>
+
+{% endblock  %}
+

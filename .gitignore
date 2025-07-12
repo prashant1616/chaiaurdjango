@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.so
+
+# Environments
+.env
+venv/
+env/
+.venv/
+
+# Django-specific
+*.log
+*.pot
+*.mo
+db.sqlite3
+# media/
+static_collected/ # If you use collectstatic to a separate folder
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Other common ignored files
+local_settings.py # Or any file containing sensitive local configurations
+tmp/
